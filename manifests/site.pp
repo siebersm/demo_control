@@ -1,6 +1,6 @@
 Package { allow_virtual => false }
 
-# Only support the following OS
+# Only support the following OS okedan
 case "${::operatingsystem}${::operatingsystemrelease}" {
   /(?i:^centos)(6|7)/: { }
   /(?i:^redhat)(6|7)/: { }
